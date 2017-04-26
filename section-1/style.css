@@ -1,0 +1,121 @@
+#container{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+.blackbar-1{
+    position:absolute;
+    width:100%;
+    height:15px;
+    top:25%;
+    background-color: black;  
+}
+
+.blackbar-2{
+    position:absolute;
+    width:15px;
+    height:100%;
+    left:20%;
+    top:0;
+    background-color: black;  
+}
+
+.blackbar-3{
+    position:absolute;
+    width:35%;
+    left:20%;
+    height:1%;
+    bottom:0%;
+    background-color: black; 
+}
+
+
+.qty{
+    position:absolute;
+    height:25%; 
+    left:21.5%;
+    width:73.5%;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    font-family:sans-serif;
+    font-size: 800%;
+    line-height: .9;
+    padding-top: 33px;
+    padding-left: 20px;
+    
+}
+
+#target {
+    position:absolute;
+    height:63.5%; 
+    left:21.5%;
+    width:73.5%;
+    top:27.5%;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    padding-top: 60px;
+    padding-left: 10px;
+    z-index:10;
+}
+
+#target:hover {
+  color:#7dae42;
+}
+
+#output{
+    font-family:sans-serif;
+    font-size: 250pt;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color:#eaeaea;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
